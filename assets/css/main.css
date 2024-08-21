@@ -996,3 +996,7 @@ section,
 .bg-dark footer.footer.home {
     background-color: transparent !important;
 }
+
+.bg-dark form input,textarea {
+    border-color: #fffa !important;
+}
