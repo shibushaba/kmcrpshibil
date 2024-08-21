@@ -23,12 +23,12 @@
         <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
         <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
 
-        <link href="assets/css/main.css" rel="stylesheet" />
+        <link href="/assets/css/main.css" rel="stylesheet" />
 
         <title>Shop KMCRP</title>
     </head>
 
-    <body>
+    <body class="bg-dark">
         <header id="header" class="header d-flex align-items-center fixed-top">
             <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
                 <a href="shop.html" class="logo d-flex align-items-center me-auto me-lg-0">
@@ -45,113 +45,79 @@
                         <li><a href="/index.html#about">About</a></li>
                         <li><a href="shop.html" class="active">Store</a></li>
                         <li><a href="index.html#contact">Contact</a></li>
+                        <li class="d-flex justify-content-end"><a class="btn-getstarted" href="index.html#about">Customer Support</a></li>
                     </ul>
 
                     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                    <i class="theme-toggler bi bi-sun-fill"></i>
                 </nav>
-
-                <a class="btn-getstarted" href="index.html#about">Customer Support</a>
             </div>
         </header>
 
-        <div class="untree_co-section product-section before-footer-section" style="background-image: url('images\BG.png')">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-4 col-lg-3 mb-5">
-                        <a class="product-item" href="#">
-                            <img src="images/1bg.png" class="img-fluid product-thumbnail" />
-                            <h3 class="product-title">Server 1 <br />agdavv</h3>
-
-                            <strong class="product-price">₹500</strong>
-
-                            <span class="icon-cross">
-                                <img src="images/cross.svg" class="img-fluid" />
-                            </span>
-                        </a>
+        <div class="untree_co-section product-section before-footer-section theme-switch-section dark-background">
+            <div class="container justify-content-center">
+                <div class="row gap-4">
+                    <div class="card col-12 col-md-4 col-lg-3 p-0 mb-4" style="width: 18rem; height: min-content">
+                        <img src="images/1bg.png" style="object-fit: cover; height: 55%" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-family: var(--card-title-font)">Card title</h5>
+                            <p class="card-text" style="font-family: var(--card-desc-font)">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-end"><a href="#" class="w-100 btn buy-btn" style="background: #f9bf29; font-family: var(--card-btn-font)">Buy Now</a></div>
+                        </div>
                     </div>
 
-                    <div class="col-12 col-md-4 col-lg-3 mb-5">
-                        <a class="product-item" href="#">
-                            <img src="images/2bg.png" class="img-fluid product-thumbnail" />
-                            <h3 class="product-title">Server 2</h3>
-                            <strong class="product-price">₹1000</strong>
-
-                            <span class="icon-cross">
-                                <img src="images/cross.svg" class="img-fluid" />
-                            </span>
-                        </a>
+                    <div class="card col-12 col-md-4 col-lg-3 p-0" style="width: 18rem; height: min-content">
+                        <img src="images/1bg.png" style="object-fit: cover; height: 55%" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-family: var(--card-title-font)">Card title</h5>
+                            <p class="card-text" style="font-family: var(--card-desc-font)">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-end"><a href="#" class="w-100 btn buy-btn" style="background: #f9bf29; font-family: var(--card-btn-font)">Buy Now</a></div>
+                        </div>
                     </div>
 
-                    <div class="col-12 col-md-4 col-lg-3 mb-5">
-                        <a class="product-item" href="#">
-                            <img src="images/3bg.png" class="img-fluid product-thumbnail" />
-                            <h3 class="product-title">Server 3</h3>
-                            <strong class="product-price">₹780</strong>
-
-                            <span class="icon-cross">
-                                <img src="images/cross.svg" class="img-fluid" />
-                            </span>
-                        </a>
+                    <div class="card col-12 col-md-4 col-lg-3 p-0" style="width: 18rem; height: min-content">
+                        <img src="images/1bg.png" style="object-fit: cover; height: 55%" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-family: var(--card-title-font)">Card title</h5>
+                            <p class="card-text" style="font-family: var(--card-desc-font)">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-end"><a href="#" class="w-100 btn buy-btn" style="background: #f9bf29; font-family: var(--card-btn-font)">Buy Now</a></div>
+                        </div>
                     </div>
 
-                    <div class="col-12 col-md-4 col-lg-3 mb-5">
-                        <a class="product-item" href="#">
-                            <img src="images/4bg.png" class="img-fluid product-thumbnail" />
-                            <h3 class="product-title">Server 4</h3>
-                            <strong class="product-price">₹430</strong>
-
-                            <span class="icon-cross">
-                                <img src="images/cross.svg" class="img-fluid" />
-                            </span>
-                        </a>
+                    <div class="card col-12 col-md-4 col-lg-3 p-0" style="width: 18rem; height: min-content">
+                        <img src="images/1bg.png" style="object-fit: cover; height: 55%" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-family: var(--card-title-font)">Card title</h5>
+                            <p class="card-text" style="font-family: var(--card-desc-font)">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-end"><a href="#" class="w-100 btn buy-btn" style="background: #f9bf29; font-family: var(--card-btn-font)">Buy Now</a></div>
+                        </div>
                     </div>
 
-                    <div class="col-12 col-md-4 col-lg-3 mb-5">
-                        <a class="product-item" href="#">
-                            <img src="images/5bg.png" class="img-fluid product-thumbnail" />
-                            <h3 class="product-title">Server 5</h3>
-                            <strong class="product-price">₹5000</strong>
-
-                            <span class="icon-cross">
-                                <img src="images/cross.svg" class="img-fluid" />
-                            </span>
-                        </a>
+                    <div class="card col-12 col-md-4 col-lg-3 p-0" style="width: 18rem; height: min-content">
+                        <img src="images/1bg.png" style="object-fit: cover; height: 55%" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-family: var(--card-title-font)">Card title</h5>
+                            <p class="card-text" style="font-family: var(--card-desc-font)">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-end"><a href="#" class="w-100 btn buy-btn" style="background: #f9bf29; font-family: var(--card-btn-font)">Buy Now</a></div>
+                        </div>
                     </div>
 
-                    <div class="col-12 col-md-4 col-lg-3 mb-5">
-                        <a class="product-item" href="#">
-                            <img src="images/6bg.png" class="img-fluid product-thumbnail" />
-                            <h3 class="product-title">Server 6</h3>
-                            <strong class="product-price">₹2300</strong>
-
-                            <span class="icon-cross">
-                                <img src="images/cross.svg" class="img-fluid" />
-                            </span>
-                        </a>
+                    <div class="card col-12 col-md-4 col-lg-3 p-0" style="width: 18rem; height: min-content">
+                        <img src="images/1bg.png" style="object-fit: cover; height: 55%" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-family: var(--card-title-font)">Card title</h5>
+                            <p class="card-text" style="font-family: var(--card-desc-font)">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-end"><a href="#" class="w-100 btn buy-btn" style="background: #f9bf29; font-family: var(--card-btn-font)">Buy Now</a></div>
+                        </div>
                     </div>
 
-                    <div class="col-12 col-md-4 col-lg-3 mb-5">
-                        <a class="product-item" href="#">
-                            <img src="images/7bg.png" class="img-fluid product-thumbnail" />
-                            <h3 class="product-title">Server 7</h3>
-                            <strong class="product-price">₹7800</strong>
-
-                            <span class="icon-cross">
-                                <img src="images/cross.svg" class="img-fluid" />
-                            </span>
-                        </a>
-                    </div>
-
-                    <div class="col-12 col-md-4 col-lg-3 mb-5">
-                        <a class="product-item" href="#">
-                            <img src="images/8bg.png" class="img-fluid product-thumbnail" />
-                            <h3 class="product-title">Server 8</h3>
-                            <strong class="product-price">6899₹</strong>
-
-                            <span class="icon-cross">
-                                <img src="images/cross.svg" class="img-fluid" />
-                            </span>
-                        </a>
+                    <div class="card col-12 col-md-4 col-lg-3 p-0" style="width: 18rem; height: min-content">
+                        <img src="images/1bg.png" style="object-fit: cover; height: 55%" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-family: var(--card-title-font)">Card title</h5>
+                            <p class="card-text" style="font-family: var(--card-desc-font)">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-end"><a href="#" class="w-100 btn buy-btn" style="background: #f9bf29; font-family: var(--card-btn-font)">Buy Now</a></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -208,7 +174,7 @@
         <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
         <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        /
+
         <script src="/assets/vendor/php-email-form/validate.js"></script>
         <script src="/assets/vendor/aos/aos.js"></script>
         <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
