@@ -1,0 +1,36 @@
+{
+    "scripts": [
+        {
+            "title": "Script 1",
+            "desc": "Script 1 description is here",
+            "img": "1bg.png"
+        },
+        {
+            "title": "Script 2",
+            "desc": "Script 2 description is here",
+            "img": "1bg.png"
+        },
+        {
+            "title": "Script 3",
+            "desc": "Script 3 description is here",
+            "img": "1bg.png"
+        }
+    ],
+    "mods": [
+        {
+            "title": "Mod 1",
+            "desc": "Mod 1 description is here",
+            "img": "2bg.png"
+        },
+        {
+            "title": "Mod 2",
+            "desc": "Mod 2 description is here",
+            "img": "2bg.png"
+        },
+        {
+            "title": "Mod 3",
+            "desc": "Mod 3 description is here",
+            "img": "2bg.png"
+        }
+    ]
+}
