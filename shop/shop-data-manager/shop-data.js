@@ -21,15 +21,25 @@ async function fetchData(url) {
     }
 }
 
-window.onload = async() => {
-    const cardsContainer = document.querySelector("body");
+window.onload = async () => {
+    const cardsContainer = document.querySelector(".products-container");
 
     url = "/shop/shop-data-manager/products.json";
     data = await fetchData(url);
 
-    Object.keys(data).forEach(section => {
-        section 
-    })
-    
+    Object.keys(data).forEach((section_title) => {
+        cardsContainer.innerHTML += "<section></section>";
+        var section = cardsContainer.querySelectorAll("section");
+        section = section[section.length - 1];
 
+        section.innerHTML = `<div class="container section-title" data-aos="fade-up">
+        <h2>${section_title}</h2>
+        <p>Contact Us</p>
+      </div>`;
+        section.innerHTML += `<div class="product-container"></div>`;
+
+        data[section_title].forEach((products) => {
+            document.querySelector(".product-container").innerHTML += cardCode(products.title, products.desc, products.img);
+        });
+    });
 };
